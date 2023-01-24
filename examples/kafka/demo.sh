@@ -1,4 +1,6 @@
 # Walk through this script manually, don't run the entire thing.
+# This script is intended for use with examples/dev-values-tls-all-components-and-kafka-and-oauth2-low-resource.yaml.
+# Works as of Pulsar 2.10_3.1
 alias k=kubectl
 kubectl config set-context -current -namespace=pulsar
 
